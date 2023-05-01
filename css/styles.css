@@ -716,7 +716,7 @@ footer {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type='checkbox']:checked + .modal-form-agreement-icon > .modal-form-agreement-unchecked {
+.modal-form-agreement-box:checked + .modal-form-agreement-icon > .modal-form-agreement-unchecked {
   opacity: 0;
 }
 
@@ -724,7 +724,7 @@ input[type='checkbox']:checked + .modal-form-agreement-icon > .modal-form-agreem
   opacity: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-input[type='checkbox']:checked + .modal-form-agreement-icon > .modal-form-agreement-checked {
+.modal-form-agreement-box:checked + .modal-form-agreement-icon > .modal-form-agreement-checked {
   opacity: 1;
 }
 
