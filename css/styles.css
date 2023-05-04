@@ -9,6 +9,7 @@
   --hove-ocean-color: #404bbf;
   --social-icon-color: #f4f4fd;
   --var-text-color: #8e8f99;
+  --var--back--color:#fcfcfc;
 }
 
 .list {
@@ -576,7 +577,7 @@ footer {
   transform: translate(-50%, -50%) scale(1) rotate(0);
   width: 408px;
   height: 576px;
-  background: var(--social-icon-color);
+  background: var(--var--back--color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -656,7 +657,7 @@ footer {
   letter-spacing: 0.04em;
   color: var(--var-text-color);
   padding: 11px;
-  background-color: var(--social-icon-color);
+  background-color: var(--var--back--color);
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
